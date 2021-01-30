@@ -1,10 +1,12 @@
 # dht11-mqtt-bridge
 An executable python function for publishing DHT11 temperature and humidity data from a Raspberry Pi using Paho MQTT
 
-Download the latest ca certificate to appropriate folder
+## Download the latest ca certificate to appropriate folder
+```
 cd /etc/ssl/certs
 sudo rm learning-iot-ca.crt
 sudo curl -0 https://learning-iot.aidanparkinson.xyz -o learning-iot-ca.crt
+```
 
 ## Install device dependencies
 ```
