@@ -1,12 +1,13 @@
 import paho.mqtt.client as mqtt
 import ssl
-from getmac import get_mac_address as gma
-
+import getmac
 import adafruit_dht
 import time
 import board
 import json
 from datetime import datetime
+
+gma = getmac.get_mac_address()
 
 pin = board.D4
 
