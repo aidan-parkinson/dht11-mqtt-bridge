@@ -56,5 +56,5 @@ source venv/bin/activate
 ```
 Run the `dht11-mqtt.py` controller
 ```
-sudo python3 dht11-mqtt.py
+python3 dht11-mqtt.py
 ```
